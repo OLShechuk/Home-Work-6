@@ -1,0 +1,268 @@
+/*
+	FONT_FAMILY:
+		font-family: 'Libre Franklin', sans-serif;
+		font-family: 'Source Serif Pro', serif;
+		font-family: 'Tenor Sans', sans-serif;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 60px;
+}
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.menu {
+	display: flex;
+	gap: 40px;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.banner_block {
+	display: flex;
+	gap: 50px;
+	margin-bottom: 60.5px;
+}
+
+.ilustration {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 10px;
+	color: #999;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+.main_title {
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+}
+
+.banner_text {
+	font-weight: 400;
+	font-size: 16px;
+	color: #666666;
+	font-family: 'Source Serif Pro', serif;
+	line-height: 24px;
+	margin-bottom: 28px;
+}
+
+.author {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.articles__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 75px;
+}
+
+.articeles__card {
+	width: 387px;
+}
+
+.article__category {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #999999;
+	margin-bottom: 18px;
+}
+
+.article_img {
+	margin-bottom: 24px;
+}
+
+.article_cat_text {
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.articel__author {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.line {
+	background-color: #E6E6E6;
+	height: 1px;
+	width: 100%;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+/*Article Small*/
+
+.articles__wrapper__small {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 98px;
+}
+
+.articeles__card__small {
+	width: 285px;
+}
+
+.article__category__small {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #999999;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.article_img__small {
+	margin-bottom: 20px;
+}
+
+.article__category__small {
+	margin-bottom: 18px;
+}
+
+.article_cat_text__small {
+	font-family: 'Tenor Sans', sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+.articel__author__small {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.articles__button {
+	font-family: 'Libre Franklin', sans-serif;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+	width: 205px;
+	height: 54px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 90px auto 0;
+}
+/*Home Work*/
+
+.articles__wrapper__big {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.Subtitle {
+	font-family: 'Libre Franklin', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #999999;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.article__img__big {
+	margin-bottom: 25px;
+}
+.articles__category__big {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #999999;
+	margin-bottom: 18px;
+}
+.articles__text__big {
+	font-family: 'Tenor Sans';
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 15px;
+}
+.articles__author__big {
+	font-family: 'Libre Franklin';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 74px;
+}
